@@ -1,0 +1,9 @@
+- name: reprex datetime test_reprex_datetime
+  command: nextflow run ./tests/modules/rhr/reprex/datetime -entry test_reprex_datetime -c ./tests/config/nextflow.config -c ./tests/modules/rhr/reprex/datetime/nextflow.config
+  tags:
+    - reprex
+    - reprex/datetime
+  files:
+    - path: output/reprex/test/2023-05-12_09-30-09/counts.csv
+      md5sum: 6f2d815bc8fe93026183cc59946ffc46
+    - path: output/reprex/test/versions.yml
